@@ -14,6 +14,10 @@
 
  ### Alarm
  ![image](https://user-images.githubusercontent.com/100949697/219220384-9057b4f8-c4f4-4302-b422-3d66e125d8f6.png)
+ 
+ ### Admin Account
+ ![image](https://user-images.githubusercontent.com/100949697/219221231-c21a34a6-6f5e-4199-8ab7-489d51127b76.png)
+
 
 
 ### Achitecture Diagram
