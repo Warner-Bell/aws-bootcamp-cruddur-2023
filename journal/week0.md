@@ -12,7 +12,9 @@
  
  ![image](https://user-images.githubusercontent.com/100949697/219216777-eaa5d55a-11ae-46ef-be1e-a64cfc9496d5.png)
 
- 
+ ### Alarm
+ ![image](https://user-images.githubusercontent.com/100949697/219220384-9057b4f8-c4f4-4302-b422-3d66e125d8f6.png)
+
 
 ### Achitecture Diagram
 https://lucid.app/lucidchart/fef69332-26fe-4236-b40f-550d508ebd0c/edit?viewport_loc=-361%2C-20%2C2281%2C1460%2C0_0&invitationId=inv_ef4563dc-27bd-405a-8631-90bcb1464f4d 
