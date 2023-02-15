@@ -1,6 +1,13 @@
 # Week 0 — Billing and Architecture
 
 ## Homework
+
+# for the Install aws cli task, I had previously installed the cli on both my Linux and Windows machines, but I went ahead and re-installed the latest version on my Linux box find a screenshot below.
+
+![image](https://user-images.githubusercontent.com/100949697/219178493-48509798-99ed-46cb-92d2-90f7d2c0f361.png)
+ 
+
+
 https://lucid.app/lucidchart/fef69332-26fe-4236-b40f-550d508ebd0c/edit?viewport_loc=-361%2C-20%2C2281%2C1460%2C0_0&invitationId=inv_ef4563dc-27bd-405a-8631-90bcb1464f4d 
 ![Week-0-Diagram](https://user-images.githubusercontent.com/100949697/218834364-dd336684-27bb-43e2-aa26-aef46e96a6bb.jpeg)
 
