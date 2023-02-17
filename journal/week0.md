@@ -3,7 +3,7 @@
 ## Homework
 
 ### CLI Install
-**For the Install aws cli task, I had previously installed the cli on both my Linux and Windows machines, but I went ahead and re-installed the latest version on my Linux box find a screenshot below.**
+**For the Install aws cli task, I had previously installed the cli on both my Linux and Windows machines, but I went ahead and re-installed the latest version on my Linux box find a screenshot below.**  **I later learned a little gitpod and installed it on there see .yaml file**
 
 ![image](https://user-images.githubusercontent.com/100949697/219178493-48509798-99ed-46cb-92d2-90f7d2c0f361.png)
  
