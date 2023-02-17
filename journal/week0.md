@@ -12,7 +12,9 @@
  
  ![image](https://user-images.githubusercontent.com/100949697/219216777-eaa5d55a-11ae-46ef-be1e-a64cfc9496d5.png)
  
-**Later did it in the CLI**
+**Later did it in the gitpod CLI**
+![image](https://user-images.githubusercontent.com/100949697/219806688-820a56df-401c-4f3e-a04b-1dfa23ea575d.png)
+
 ![image](https://user-images.githubusercontent.com/100949697/219805851-a17530dd-e872-42f3-8183-2a521ff1df6d.png)
 
  ### Alarm
