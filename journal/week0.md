@@ -11,6 +11,10 @@
  **I have had a budget created already, not new to AWS took a screenshot anyway for proof see below**
  
  ![image](https://user-images.githubusercontent.com/100949697/219216777-eaa5d55a-11ae-46ef-be1e-a64cfc9496d5.png)
+ 
+**Later did it in the CLI**
+ image.png
+
 
  ### Alarm
  ![image](https://user-images.githubusercontent.com/100949697/219220384-9057b4f8-c4f4-4302-b422-3d66e125d8f6.png)
