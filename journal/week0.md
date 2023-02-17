@@ -13,13 +13,13 @@
  ![image](https://user-images.githubusercontent.com/100949697/219216777-eaa5d55a-11ae-46ef-be1e-a64cfc9496d5.png)
  
 **Later did it in the gitpod CLI**
-![image](https://user-images.githubusercontent.com/100949697/219806688-820a56df-401c-4f3e-a04b-1dfa23ea575d.png)
+![image](https://user-images.githubusercontent.com/100949697/219812932-892cf3ad-4102-42a4-9e4c-d29bd8db6a5a.png)
 
-![image](https://user-images.githubusercontent.com/100949697/219805851-a17530dd-e872-42f3-8183-2a521ff1df6d.png)
+
 
  ### Alarm
- ![image](https://user-images.githubusercontent.com/100949697/219811720-63efb2f2-1d6e-4e7d-93dd-4565df71ecf3.png)
- ![image](https://user-images.githubusercontent.com/100949697/219811794-739e2a95-0d3b-4dc6-bc49-046b45d97cae.png)
+ ![image](https://user-images.githubusercontent.com/100949697/219812781-9e575131-b06f-40f4-9cd0-9112c1a1df60.png)
+ ![image](https://user-images.githubusercontent.com/100949697/219812687-8219106c-33f7-47ba-9921-90389b28c0f9.png)
 
  
  ### Admin Account
