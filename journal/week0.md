@@ -18,7 +18,9 @@
 ![image](https://user-images.githubusercontent.com/100949697/219805851-a17530dd-e872-42f3-8183-2a521ff1df6d.png)
 
  ### Alarm
- ![image](https://user-images.githubusercontent.com/100949697/219220384-9057b4f8-c4f4-4302-b422-3d66e125d8f6.png)
+ ![image](https://user-images.githubusercontent.com/100949697/219811720-63efb2f2-1d6e-4e7d-93dd-4565df71ecf3.png)
+ ![image](https://user-images.githubusercontent.com/100949697/219811794-739e2a95-0d3b-4dc6-bc49-046b45d97cae.png)
+
  
  ### Admin Account
  ![image](https://user-images.githubusercontent.com/100949697/219221231-c21a34a6-6f5e-4199-8ab7-489d51127b76.png)
