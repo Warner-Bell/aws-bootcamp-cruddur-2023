@@ -46,7 +46,7 @@ https://lucid.app/lucidchart/2fc01e27-b3f0-483f-9ce5-c6fb2fd7404b/edit?viewport_
 
 
 ## Challenges
-### Keys, MFA, Lab Admin
+### Keys, MFA, IAM
 ![image](https://user-images.githubusercontent.com/100949697/219824903-6a74e40b-d5fd-4883-8de9-ca556ba82e16.png)
 
 
