@@ -1,13 +1,9 @@
-FROM python:3.10-slim-buster
+FROM node:16.18
 
-WORKDIR /backend-flask
+ENV PORT=3000
 
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
-
-COPY . .
-
-ENV FLASK_ENV=development
-
+COPY . /frontend-react-js
+WORKDIR /frontend-react-js
+RUN npm install
 EXPOSE ${PORT}
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
+CMD ["npm", "start"]
