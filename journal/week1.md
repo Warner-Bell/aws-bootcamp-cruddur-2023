@@ -46,6 +46,8 @@
 ## Implement a healthcheck in the V3 Docker compose file
 ## Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
 ## Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+![image](https://user-images.githubusercontent.com/100949697/221326166-c4f459db-80d9-4a0a-bb36-46d49aae3946.png)
+![image](https://user-images.githubusercontent.com/100949697/221326238-3dacbf07-7ec2-40c9-959e-e9e37068523a.png)
 ## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 
 
