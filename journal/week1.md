@@ -9,7 +9,8 @@
 ## Configure Gitpod.yml configuration, eg. VSCode Extensions
 ![image](https://user-images.githubusercontent.com/100949697/221322026-2a07bc1f-e8fc-489b-9e10-ac1ab4d7c521.png)
 
-## Clone the frontend and backend repo
+## Clone the frontend and backend repo???
+![image](https://user-images.githubusercontent.com/100949697/221324242-9fd0ee4f-85dd-4708-8f60-f85b52e4d5b4.png)
 
 ## Explore the codebases
 ![image](https://user-images.githubusercontent.com/100949697/221322246-0a8f30de-3379-4117-aff8-b047cce27d12.png)
@@ -30,7 +31,8 @@
 ## Ensure we can orchestrate multiple containers to run side by side
 ![image](https://user-images.githubusercontent.com/100949697/221322805-50cdc6d0-c94d-436f-b3f9-0643ce6dce2c.png)
 
-##Mount directories so we can make changes while we code
+## Mount directories so we can make changes while we code
+![image](https://user-images.githubusercontent.com/100949697/221324023-070f3447-8977-4a59-865a-8a93150be4cc.png)
 
 
 
@@ -39,4 +41,11 @@
 ## Pull:Tag:Push Docker Image
 ![image](https://user-images.githubusercontent.com/100949697/220758481-0c0dd54b-da6f-4978-94e3-8c7a45f4909c.png)
 ![image](https://user-images.githubusercontent.com/100949697/220758568-f7f04532-a7ba-42c6-93b9-7690af21a195.png)
+## Run the dockerfile CMD as an external script
+## Use multi-stage building for a Dockerfile build
+## Implement a healthcheck in the V3 Docker compose file
+## Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+## Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+
 
