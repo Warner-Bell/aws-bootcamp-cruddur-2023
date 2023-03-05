@@ -29,8 +29,18 @@
 ![image](https://user-images.githubusercontent.com/100949697/222970639-d3ad355e-d1c4-4bd5-af9b-06033c35ac7d.png)
 
 ### Integrate Rollbar for Error Logging
+![image](https://user-images.githubusercontent.com/100949697/222971371-4d007b54-5d68-4117-a2bf-ddc275515bbc.png)
+![image](https://user-images.githubusercontent.com/100949697/222971404-edbdc921-d6a2-4dba-bf6d-8269adca97da.png)
+![image](https://user-images.githubusercontent.com/100949697/222971431-57a65fb2-50aa-493e-9ddd-1852f75fff07.png)
+![image](https://user-images.githubusercontent.com/100949697/222971497-1dc07cec-a17e-4906-9298-19bceb820009.png)
+![image](https://user-images.githubusercontent.com/100949697/222971335-8bf374b2-3667-4866-8cbb-53ab7c29afe9.png)
+![image](https://user-images.githubusercontent.com/100949697/222971598-47019d8c-5963-422c-9c85-d534971f102a.png)
 
 ### Trigger an error an observe an error with Rollbar
+![image](https://user-images.githubusercontent.com/100949697/222971732-1aedb9f9-9657-49f5-9664-68f58ca0da67.png)
+![image](https://user-images.githubusercontent.com/100949697/222971781-cc6d9098-1804-40ea-b503-819cf80c1db2.png)
+
+
 ### Install WatchTower and write a custom logger to send application log data to CloudWatch Log group
 ![image](https://user-images.githubusercontent.com/100949697/222971120-a89f85c5-2816-4455-aaf1-e579be7288c5.png)
 ![image](https://user-images.githubusercontent.com/100949697/222971181-cfdccfbb-8bc5-4744-8bd1-6d0814b48f61.png)
