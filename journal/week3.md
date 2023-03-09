@@ -14,9 +14,10 @@
 ![image](https://user-images.githubusercontent.com/100949697/223504666-791b8b82-96da-43e6-97b3-a6ee07ddcf6b.png)
 ![image](https://user-images.githubusercontent.com/100949697/223504561-d2a5712f-ad82-403c-8a8c-87423558a507.png)
 ![image](https://user-images.githubusercontent.com/100949697/223506543-aa66e0f7-79f8-430d-85df-8d9dd6bce5bd.png)
-
+![image](https://user-images.githubusercontent.com/100949697/224178893-05538928-cc1b-4ddd-bfb2-7baacba7d0cd.png)
 
 ### Show conditional elements and data based on logged in or logged out
+
 ### Verify JWT Token server side to serve authenticated API endpoints in Flask Application
 
 ## Homework Challenges 
