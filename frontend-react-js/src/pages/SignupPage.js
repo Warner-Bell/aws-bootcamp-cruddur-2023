@@ -40,10 +40,6 @@ export default function SignupPage() {
     return false
   }
   
- 
-
-    return false
-  
 
   const name_onchange = (event) => {
     setName(event.target.value);
