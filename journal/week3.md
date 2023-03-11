@@ -19,6 +19,8 @@
 ### Show conditional elements and data based on logged in or logged out
 
 ### Verify JWT Token server side to serve authenticated API endpoints in Flask Application
+![image](https://user-images.githubusercontent.com/100949697/224457905-742fce35-c661-4945-ab28-9a6265b501d3.png)
+
 
 ## Homework Challenges 
 
