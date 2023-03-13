@@ -25,6 +25,9 @@
 ### Provision an RDS Postgres instance
 
 ### Configure VPC Security Groups
+
 ### Configure local backend application to use production connection URL
+
 ### Add a caching layer using Momento Serverless Cache
+
 ### Propagate metrics from DDB to an RDS metrics table 
