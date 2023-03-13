@@ -7,6 +7,8 @@
 ### Launch Postgres locally via a container
 
 ### Seed our Postgres Database table with data
+![image](https://user-images.githubusercontent.com/100949697/224770573-e6ee992b-b151-4ffd-b23d-8499e0a37ebf.png)
+
 
 ### Write a Postgres adapter
 
