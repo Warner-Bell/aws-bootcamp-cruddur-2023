@@ -10,7 +10,8 @@
 ### Seed our Postgres Database table with data
 ![image](https://user-images.githubusercontent.com/100949697/224770573-e6ee992b-b151-4ffd-b23d-8499e0a37ebf.png)
 
-image.png
+![image](https://user-images.githubusercontent.com/100949697/224833973-f996c775-4954-42ac-973e-86ebcb97669a.png)
+
 
 ### Write a Postgres adapter
 
