@@ -1,7 +1,6 @@
 # Week 6 — Deploying Containers
 
 ## Technical Tasks
-### In this class, we will:
 
 ### Create an Elastic Container Repository (ECR)
 
