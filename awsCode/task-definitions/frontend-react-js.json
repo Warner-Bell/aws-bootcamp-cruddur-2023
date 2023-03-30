@@ -1,7 +1,7 @@
 {
     "family": "frontend-react-js",
-    "executionRoleArn": "arn:aws:iam::387543059434:role/CruddurServiceExecutionRole",
-    "taskRoleArn": "arn:aws:iam::387543059434:role/CruddurTaskRole",
+    "executionRoleArn": "arn:aws:iam::198101904822:role/CruddurServiceExecutionRole",
+    "taskRoleArn": "arn:aws:iam::198101904822:role/CruddurTaskRole",
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
@@ -35,7 +35,7 @@
           "logDriver": "awslogs",
           "options": {
               "awslogs-group": "cruddur",
-              "awslogs-region": "ca-central-1",
+              "awslogs-region": "us-east-1",
               "awslogs-stream-prefix": "frontend-react-js"
           }
         }
