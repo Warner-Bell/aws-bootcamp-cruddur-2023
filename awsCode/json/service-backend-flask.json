@@ -40,6 +40,5 @@
           "clientAliases": [{"port": 4567}]
         }
       ]
-    }
-    
+    }  
   }
