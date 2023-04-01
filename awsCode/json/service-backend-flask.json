@@ -20,10 +20,16 @@
         "subnets": [
           "subnet-03941df80cd109df4",
           "subnet-05b3085358e4e983e",
-          "subnet-0eef7bde0fab9ae23"
+          "subnet-0eef7bde0fab9ae23",
+          "subnet-08a60a9c7b43a83d5",
+          "subnet-047f83e520c58f476",
+          "subnet-0e1fbf8c6512bcee1"
         ]
       }
     },
+    "propagateTags": "SERVICE",
+    "serviceName": "backend-flask",
+    "taskDefinition": "backend-flask",
     "serviceConnectConfiguration": {
       "enabled": true,
       "namespace": "cruddur",
@@ -34,8 +40,6 @@
           "clientAliases": [{"port": 4567}]
         }
       ]
-    },
-    "propagateTags": "SERVICE",
-    "serviceName": "backend-flask",
-    "taskDefinition": "backend-flask"
+    }
+    
   }
