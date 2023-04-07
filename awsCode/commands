@@ -1,0 +1,4 @@
+./bin/ecr/login
+./bin/db/setup
+./bin/ddb/schema-load
+./bin/ddb/seed
