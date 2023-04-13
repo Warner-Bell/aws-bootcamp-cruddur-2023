@@ -5,6 +5,8 @@
 ### Test our JavaScript code to use Sharp and process a thumbnail
 
 ### Write an AWS Lambda function
+![image](https://user-images.githubusercontent.com/100949697/231900395-e27fe8b6-7493-4448-8b25-01d30da695bb.png)
+
 
 ### Deploy our Lambda function
 
