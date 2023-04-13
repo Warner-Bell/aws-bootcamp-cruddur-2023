@@ -22,7 +22,6 @@
           }
         ]
       },
-      
       {
         "name": "backend-flask",
         "image": "198101904822.dkr.ecr.us-east-1.amazonaws.com/backend-flask",
