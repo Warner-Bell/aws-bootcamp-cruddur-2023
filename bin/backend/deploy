@@ -7,7 +7,7 @@ TASK_DEFINITION_FAMILY="backend-flask"
 
 LATEST_TASK_DEFINITION_ARN=$(aws ecs describe-task-definition \
 --task-definition $TASK_DEFINITION_FAMILY \
---query 'taskdefinition.taskDefinitionArn' \
+--query 'taskDefinition.taskDefinitionArn' \
 --output text)
 
 echo "TASK DEF ARN:"
