@@ -20,3 +20,14 @@
 ### How to push new updates to your code update Fargate running tasks
 
 ### Test that we have a Cross-origin Resource Sharing (CORS) issue
+
+### Create a Route53 hosted zone to manage our domain
+
+### Generate a public certificate via AWS Certificate Manager (ACM)
+
+### Create an Application Load Balancer (ALB)
+
+### Create ALB target group that points to our Fargate instances
+
+### Update our application to handle CORS
+
