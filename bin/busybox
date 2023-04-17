@@ -1,5 +1,3 @@
-xecutable File  6 lines (5 sloc)  99 Bytes
-
 #! /usr/bin/bash
 
 docker run --rm \
