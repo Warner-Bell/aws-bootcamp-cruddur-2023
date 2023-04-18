@@ -6,9 +6,8 @@ SELECT
       users.handle,
       users.display_name,
       users.bio,
-      (
-       SELECT 
-        count(true) 
+      ( 
+       SELECT count(true) 
        FROM public.activities
        WHERE
         activities.user_uuid = users.uuid
