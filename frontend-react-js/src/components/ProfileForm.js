@@ -4,12 +4,11 @@ import process from 'process';
 import {getAccessToken} from 'lib/CheckAuth';
 
 export default function ProfileForm(props) {
-  const [bio, setBio] = React.useState(0);
-  const [displayName, setDisplayName] = React.useState(0);
+  const [bio, setBio] = React.useState('');
+  const [displayName, setDisplayName] = React.useState('');
 
   React.useEffect(()=>{
-    console.log('useEffects',props)
-    setBio(props.profile.bio);
+    setBio(props.profile.bio || '');
     setDisplayName(props.profile.display_name);
   }, [props.profile])
 
