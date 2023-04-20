@@ -6,7 +6,7 @@ import {getAccessToken} from 'lib/CheckAuth';
 export default function ProfileForm(props) {
   const [bio, setBio] = React.useState('');
   const [displayName, setDisplayName] = React.useState('');
-
+ 
   React.useEffect(()=>{
     setBio(props.profile.bio || '');
     setDisplayName(props.profile.display_name);
