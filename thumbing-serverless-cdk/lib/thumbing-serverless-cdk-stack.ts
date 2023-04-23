@@ -6,9 +6,8 @@ import * as s3n from 'aws-cdk-lib/aws-s3-notifications';
 import * as subscriptions from 'aws-cdk-lib/aws-sns-subscriptions';
 import * as sns from 'aws-cdk-lib/aws-sns';
 import { Construct } from 'constructs';
+import * as dotenv from 'dotenv';
 
-//import will not work for dotenv you have to use require.
-const dotenv = require('dotenv');
 dotenv.config();
 
 export class ThumbingServerlessCdkStack extends cdk.Stack {
