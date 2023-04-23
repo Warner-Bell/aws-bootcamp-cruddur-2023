@@ -20,7 +20,7 @@ export default function UserFeedPage() {
   const dataFetchedRef = React.useRef(false);
 
   const params = useParams();
-  const title = `@${params.handle}`;
+  
 
   const loadData = async () => {
     try {
@@ -65,7 +65,6 @@ export default function UserFeedPage() {
           popped={poppedProfile} 
           setPopped={setPoppedProfile} 
         />
-
         <div className='activity_feed'>
           <ProfileHeading setPopped={setPoppedProfile} profile={profile} />
           <ActivityFeed activities={activities} />
