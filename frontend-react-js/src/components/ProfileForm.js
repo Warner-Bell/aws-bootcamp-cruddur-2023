@@ -19,7 +19,7 @@ export default function ProfileForm(props) {
       await getAccessToken()
       const access_token = localStorage.getItem("access_token")
       const json = {
-        extension: extension
+        extension: extension,
       }
       const res = await fetch(gateway_url, {
         method: "POST",
