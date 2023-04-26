@@ -148,7 +148,7 @@ Resources:
               Path: "/#{path}"
               Query: "#{query}"
               StatusCode: "HTTP_301"
-  ApiALBListernerRule:
+  ApiALBListenerRule:
     # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html
     Type: AWS::ElasticLoadBalancingV2::ListenerRule
     Properties:
