@@ -252,10 +252,10 @@ Resources:
                 Resource: '*'
       ManagedPolicyArns:
         - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
-        - arn:aws:iam::aws:policy/AWSXRayDaemonWriteAcce
+        - arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess
 
 Outputs:
-  ServiceSecurityGroupId:
-    Value: !GetAtt ServicesSG.GroupId
+  ServiceName:
+    Value: !GetAtt FargateService.Name
     Export:
-      Name: !Sub "${AWS::StackName}ServiceSecurityGroupId"
+      Name: !Sub "${AWS::StackName}ServiceName"
