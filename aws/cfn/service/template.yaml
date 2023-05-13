@@ -254,8 +254,8 @@ Resources:
         - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
         - arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess
 
-Outputs:
-  ServiceName:
-    Value: !GetAtt FargateService.Name
-    Export:
-      Name: !Sub "${AWS::StackName}ServiceName"
+# Outputs:
+#   ServiceName:
+#     Value: !GetAtt FargateService.Name
+#     Export:
+#       Name: !Sub "${AWS::StackName}ServiceName"
