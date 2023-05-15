@@ -41,18 +41,18 @@ Parameters:
   EnvOtelExporterOtlpEndpoint:
     Type: String
     Default: https://api.honeycomb.io
-  EnvAWSCognitoUserPoolId:
-    Type: String
-    Default: us-east-1_8UOOJp8cj
-  EnvCognitoUserPoolClientId:
-    Type: String
-    Default: 6sh7d8kin0tk25m1caglucl0k4
   EnvFrontendUrl:
     Type: String
     Default: "*"
   EnvBackendUrl:
     Type: String
     Default: "*"
+  SecretsAWSCognitoUserPoolId:
+    Type: String
+    Default: 'arn:aws:ssm:us-east-1:198101904822:parameter/cruddur/backend-flask/COGNITO_USER_POOL_ID'
+  SecretsCognitoUserPoolClientId:
+    Type: String
+    Default: 'arn:aws:ssm:us-east-1:198101904822:parameter/cruddur/backend-flask/COGNITO_USER_POOL_CLIENT_ID'
   SecretsAWSAccessKeyId:
     Type: String
     Default: 'arn:aws:ssm:us-east-1:198101904822:parameter/cruddur/backend-flask/AWS_ACCESS_KEY_ID'
@@ -148,7 +148,7 @@ Resources:
           HealthCheck:
             Command:
               - 'CMD-SHELL'
-              - 'python /backend-flask/bin/health-check'
+              - 'python /backend-flask/bin/flask/health-check'
             Interval: 30
             Timeout: 5
             Retries: 3
@@ -169,10 +169,6 @@ Resources:
               Value: !Ref EnvOtelServiceName
             - Name: 'OTEL_EXPORTER_OTLP_ENDPOINT'
               Value: !Ref EnvOtelExporterOtlpEndpoint
-            - Name: 'AWS_COGNITO_USER_POOL_ID'
-              Value: !Ref EnvAWSCognitoUserPoolId
-            - Name: 'AWS_COGNITO_USER_POOL_CLIENT_ID'
-              Value: !Ref EnvCognitoUserPoolClientId
             - Name: 'FRONTEND_URL'
               Value: !Ref EnvFrontendUrl
             - Name: 'BACKEND_URL'
@@ -180,6 +176,10 @@ Resources:
             - Name: 'AWS_DEFAULT_REGION'
               Value: !Ref AWS::Region
           Secrets:
+            - Name: 'AWS_COGNITO_USER_POOL_ID'
+              ValueFrom: !Ref SecretsAWSCognitoUserPoolId
+            - Name: 'AWS_COGNITO_USER_POOL_CLIENT_ID'
+              ValueFrom: !Ref SecretsCognitoUserPoolClientId
             - Name: 'AWS_ACCESS_KEY_ID'
               ValueFrom: !Ref SecretsAWSAccessKeyId
             - Name: 'AWS_SECRET_ACCESS_KEY'
@@ -229,7 +229,7 @@ Resources:
     # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html
     Type: AWS::IAM::Role
     Properties:
-      RoleName: CruddurServiceTaskRole
+      RoleName: CruddurTaskRole
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
@@ -253,7 +253,6 @@ Resources:
       ManagedPolicyArns:
         - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
         - arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess
-
 Outputs:
   ServiceName:
     Value: !GetAtt FargateService.Name
