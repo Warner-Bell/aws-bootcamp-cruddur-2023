@@ -1,0 +1,9 @@
+[deploy]
+bucket = 'cldfrmn-artifacts'
+region = 'us-east-1'
+stack_name = 'CrdFrontend'
+
+[parameters]
+CertificateArn = 'arn:aws:acm:us-east-1:198101904822:certificate/6d5da2dc-3e1b-4d8d-961f-b2ae3eeed1a0'
+WwwBucketName = 'www.gadgetoolslabs.com'
+RootBucketName = 'gadgetoolslabs.com'
