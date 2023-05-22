@@ -43,4 +43,4 @@ AwsS3WebsiteSync::Runner.run(
     'robots.txt',
     'safari-pinned-tab.svg'
   ]
-)
+) 
