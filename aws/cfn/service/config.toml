@@ -2,3 +2,7 @@
 bucket = 'cldfrmn-artifacts'
 region = 'us-east-1'
 stack_name = 'CrdSrvBackendFlask'
+
+[parameters]
+EnvFrontendUrl = 'https://gadgetoolslabs.com'
+EnvBackendUrl = 'https://api.gadgetoolslabs.com'
