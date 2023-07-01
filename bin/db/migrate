@@ -26,8 +26,8 @@ def set_last_successful_run(value):
   SET last_successful_run = %(last_successful_run)s
   WHERE id = 1
   """
-  db.query_commit(sql,{'last_successful_run': value},verbose=True)
-  return value
+  db.query_commit(sql,{'last_successful_run': value},verbose=False)
+  return int(value)
 
 last_successful_run = get_last_successful_run()
 
@@ -42,7 +42,9 @@ for migration_file in migration_files:
   match = re.match(r'^\d+', filename)
   if match:
     file_time = int(match.group())
-    if last_successful_run <= file_time:
+    print(last_successful_run)
+    print(file_time)
+    if last_successful_run < file_time:
       mod = importlib.import_module(module_name)
       print('=== running migration: ',module_name)
       mod.migration.migrate()
