@@ -1,15 +1,14 @@
-import "./NotificationsFeedPage.css";
+import './NotificationsFeedPage.css';
 import React from "react";
 
-import DesktopNavigation from "../components/DesktopNavigation";
-import DesktopSidebar from "../components/DesktopSidebar";
-import ActivityFeed from "../components/ActivityFeed";
-import ActivityForm from "../components/ActivityForm";
-import ReplyForm from "../components/ReplyForm";
+import DesktopNavigation  from 'components/DesktopNavigation';
+import DesktopSidebar     from 'components/DesktopSidebar';
+import ActivityFeed from 'components/ActivityFeed';
+import ActivityForm from 'components/ActivityForm';
+import ReplyForm from 'components/ReplyForm';
 
-import { checkAuth } from "../lib/CheckAuth";
 import {get} from 'lib/Requests';
-
+import {checkAuth} from 'lib/CheckAuth';
 
 export default function NotificationsFeedPage() {
   const [activities, setActivities] = React.useState([]);
@@ -29,44 +28,39 @@ export default function NotificationsFeedPage() {
     })
   };
 
-  React.useEffect(() => {
+  React.useEffect(()=>{
     //prevents double call
     if (dataFetchedRef.current) return;
     dataFetchedRef.current = true;
 
     loadData();
     checkAuth(setUser);
-  }, []);
+  }, [])
 
   return (
     <article>
-      <DesktopNavigation
-        user={user}
-        active={"notifications"}
-        setPopped={setPopped}
-      />
-      <div className="content">
-        <ActivityForm
+      <DesktopNavigation user={user} active={'notifications'} setPopped={setPopped} />
+      <div className='content'>
+        <ActivityForm  
           popped={popped}
-          setPopped={setPopped}
-          setActivities={setActivities}
+          setPopped={setPopped} 
+          setActivities={setActivities} 
         />
-        <ReplyForm
-          activity={replyActivity}
-          popped={poppedReply}
-          setPopped={setPoppedReply}
-          setActivities={setActivities}
-          activities={activities}
+        <ReplyForm 
+          activity={replyActivity} 
+          popped={poppedReply} 
+          setPopped={setPoppedReply} 
+          setActivities={setActivities} 
+          activities={activities} 
         />
-        <div className="activity_feed">
-          <div className="activity_feed_heading">
-            <div className="title">Notifications</div>
+        <div className='activity_feed'>
+          <div className='activity_feed_heading'>
+            <div className='title'>Notifications</div>
           </div>
-          <ActivityFeed
-            // title="Notifications"
-            setReplyActivity={setReplyActivity}
-            setPopped={setPoppedReply}
-            activities={activities}
+          <ActivityFeed 
+            setReplyActivity={setReplyActivity} 
+            setPopped={setPoppedReply} 
+            activities={activities} 
           />
         </div>
       </div>

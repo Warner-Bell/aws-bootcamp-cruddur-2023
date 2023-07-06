@@ -19,8 +19,6 @@ export default function SigninPage() {
     .then(user => {
       console.log('user',user)
       localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
-      // add user_handle to local storage
-      localStorage.setItem("user_handle", user.attributes.preferred_username)
       window.location.href = "/"
     })
     .catch(error => { 
@@ -38,7 +36,6 @@ export default function SigninPage() {
   const password_onchange = (event) => {
     setPassword(event.target.value);
   }
-
 
   return (
     <article className="signin-article">
