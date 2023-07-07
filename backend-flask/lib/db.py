@@ -74,6 +74,7 @@ class Db:
     if verbose:
       self.print_sql('json',sql,params)
       self.print_params(params)
+
     wrapped_sql = self.query_wrap_object(sql)
 
     with self.pool.connection() as conn:
@@ -81,12 +82,13 @@ class Db:
         cur.execute(wrapped_sql,params)
         json = cur.fetchone()
         if json == None:
-          "{}"
+          return "{}"
         else:
           return json[0]
   def query_value(self,sql,params={},verbose=True):
     if verbose:
       self.print_sql('value',sql,params)
+
     with self.pool.connection() as conn:
       with conn.cursor() as cur:
         cur.execute(sql,params)
@@ -116,9 +118,6 @@ class Db:
     # print the connect() error
     print ("\npsycopg ERROR:", err, "on line number:", line_num)
     print ("psycopg traceback:", traceback, "-- type:", err_type)
-
-    # psycopg2 extensions.Diagnostics object attribute
-    print ("\nextensions.Diagnostics:", err.diag)
 
     # print the pgcode and pgerror exceptions
     print ("pgerror:", err.pgerror)

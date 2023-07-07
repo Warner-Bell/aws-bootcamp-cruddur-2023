@@ -15,7 +15,6 @@ class CreateMessage:
       if message_group_uuid == None or len(message_group_uuid) < 1:
         model['errors'] = ['message_group_uuid_blank']
 
-
     if cognito_user_id == None or len(cognito_user_id) < 1:
       model['errors'] = ['cognito_user_id_blank']
 
@@ -26,7 +25,7 @@ class CreateMessage:
     if message == None or len(message) < 1:
       model['errors'] = ['message_blank'] 
     elif len(message) > 1024:
-      model['errors'] = ['message_exceed_max_chars'] 
+      model['errors'] = ['message_exceed_max_chars_1024'] 
 
     if model['errors']:
       # return what we provided
@@ -36,7 +35,7 @@ class CreateMessage:
         'message': message
       }
     else:
-      sql = db.template('users','create_message_users')
+      sql = db.get_template('users', 'create_message_users')
 
       if user_receiver_handle == None:
         rev_handle = ''
