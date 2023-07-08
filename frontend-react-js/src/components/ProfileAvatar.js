@@ -1,7 +1,7 @@
 import './ProfileAvatar.css';
 
 export default function ProfileAvatar(props) {
-  const backgroundImage = `url("https://assets.gadgetoolslabs.com/avatars/${props.id}.jpg")`;
+  const backgroundImage = `url("https://assets.gadgetoolslabs.com/avatars/Worf.jpg")`;
   const styles = {
     backgroundImage: backgroundImage,
     backgroundSize: 'cover',
@@ -15,3 +15,5 @@ export default function ProfileAvatar(props) {
     ></div>
   );
 }
+
+//${props.id}
