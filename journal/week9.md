@@ -4,6 +4,7 @@
 
 Write a buildspec.yml to build new images from our GitHub repository
 
+
 Test AWS CodeBuild is building and tagging our images correctly
 
 Write an appspec.yml with multiple lambda for steps
