@@ -10,7 +10,7 @@ def handler(event:, context:)
     { 
       headers: {
         "Access-Control-Allow-Headers": "*, Authorization",
-        "Access-Control-Allow-Origin": "https://3000-warnerbell-awsbootcampc-es5s8tcj2ts.ws-us95.gitpod.io",
+        "Access-Control-Allow-Origin": "gadgetoolslabs.com",
         "Access-Control-Allow-Methods": "OPTIONS,GET,POST"
       },
       statusCode: 200
@@ -26,7 +26,7 @@ def handler(event:, context:)
     cognito_user_uuid = decoded_token[0]['sub']
 
     s3 = Aws::S3::Resource.new
-    bucket_name = ENV["UPLOADS_BUCKET_NAME"]
+    bucket_name = ENV["gadgetoolslabscruddur-uploaded-avatars"]
     object_key = "#{cognito_user_uuid}.#{extension}"
 
     puts({object_key: object_key}.to_json)
@@ -38,7 +38,7 @@ def handler(event:, context:)
     { 
       headers: {
         "Access-Control-Allow-Headers": "*, Authorization",
-        "Access-Control-Allow-Origin": "https://3000-warnerbell-awsbootcampc-es5s8tcj2ts.ws-us95.gitpod.io",
+        "Access-Control-Allow-Origin": "gadgetoolslabs.com",
         "Access-Control-Allow-Methods": "OPTIONS,GET,POST"
       },
       statusCode: 200, 
