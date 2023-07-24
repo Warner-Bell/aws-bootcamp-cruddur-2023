@@ -36,33 +36,28 @@ class CreateActivity:
     elif len(message) > 280:
       model['errors'] = ['message_exceed_max_chars'] 
 
-
     if model['errors']:
       model['data'] = {
-        'cognito_user_id':  cognito_user_id,
+        'handle':  user_handle,
         'message': message
       }   
     else:
       expires_at = (now + ttl_offset)
-      uuid = CreateActivity.create_activity(cognito_user_id, message, expires_at)
-
+      uuid = CreateActivity.create_activity(cognito_user_id,message,expires_at)
       object_json = CreateActivity.query_object_activity(uuid)
       model['data'] = object_json
-
-      # print(">>>>>>>>>>", "CreateActivity, uuid:", uuid)
     return model
-  
+
   def create_activity(cognito_user_id, message, expires_at):
-    sql = db.get_template('activities', 'create')
-    uuid = db.query_commit(sql ,{
+    sql = db.template('activities','create')
+    uuid = db.query_commit(sql,{
       'cognito_user_id': cognito_user_id,
       'message': message,
       'expires_at': expires_at
     })
     return uuid
-  
   def query_object_activity(uuid):
-    sql = db.get_template('activities', 'object')
-    return db.query_object_json(sql, {
+    sql = db.template('activities','object')
+    return db.query_object_json(sql,{
       'uuid': uuid
     })

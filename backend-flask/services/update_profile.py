@@ -20,7 +20,7 @@ class UpdateProfile:
       data = UpdateProfile.query_users_short(handle)
       model['data'] = data
     return model
-  
+
   def update_profile(bio,display_name,cognito_user_id):
     if bio == None:    
       bio = ''
