@@ -1,4 +1,4 @@
--- this file was manually created
+on bro-- this file was manually created
 INSERT INTO public.users (display_name, email, handle, cognito_user_id)
 VALUES
   ('Raymond Reddington', 'warner.bell21@gmail.com' , 'raymondreddington' ,'MOCK'),
@@ -14,6 +14,6 @@ VALUES
   ),
   (
     (SELECT uuid from public.users WHERE users.handle = 'warnerbell' LIMIT 1),
-    'I am not Dembe',
+    'cmon bro',
     current_timestamp + interval '10 day'
   );
