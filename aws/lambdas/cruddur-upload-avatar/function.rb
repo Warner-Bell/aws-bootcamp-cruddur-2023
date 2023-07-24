@@ -26,7 +26,7 @@ def handler(event:, context:)
     cognito_user_uuid = decoded_token[0]['sub']
 
     s3 = Aws::S3::Resource.new
-    bucket_name = ENV["gadgetoolslabscruddur-uploaded-avatars"]
+    bucket_name = ENV["UPLOADS_BUCKET_NAME"]
     object_key = "#{cognito_user_uuid}.#{extension}"
 
     puts({object_key: object_key}.to_json)
