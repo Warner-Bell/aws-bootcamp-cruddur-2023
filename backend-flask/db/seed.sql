@@ -14,6 +14,6 @@ VALUES
   ),
   (
     (SELECT uuid from public.users WHERE users.handle = 'warnerbell' LIMIT 1),
-    'I am the other!',
+    'I am not Dembe!',
     current_timestamp + interval '10 day'
   );
