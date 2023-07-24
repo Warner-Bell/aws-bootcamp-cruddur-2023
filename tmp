@@ -1,14 +1,22 @@
 [
   {
-    "path": "static/js/main.29abd996.js",
+    "path": "static/css/main.d24baa51.css",
     "action": "delete"
   },
   {
-    "path": "static/js/main.29abd996.js.LICENSE.txt",
+    "path": "static/css/main.d24baa51.css.map",
     "action": "delete"
   },
   {
-    "path": "static/js/main.29abd996.js.map",
+    "path": "static/js/main.82b5d597.js",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.82b5d597.js.LICENSE.txt",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.82b5d597.js.map",
     "action": "delete"
   },
   {
@@ -28,7 +36,7 @@
   },
   {
     "path": "asset-manifest.json",
-    "md5": "f5634bf641c803cf117b8a6180dc72ce",
+    "md5": "bc4c4012eb1ccade3cb0762761d193fd",
     "action": "update"
   },
   {
@@ -53,7 +61,7 @@
   },
   {
     "path": "index.html",
-    "md5": "4cd52930f19748d7488ec190b7cc6a09",
+    "md5": "a33ff3279ebaea74505568d69757fdfb",
     "action": "update"
   },
   {
@@ -99,12 +107,12 @@
   {
     "path": "static/css/main.c08efab1.css",
     "md5": "9fbbad3c330c37d61563f3867dd2ca69",
-    "action": "no_change"
+    "action": "create"
   },
   {
     "path": "static/css/main.c08efab1.css.map",
     "md5": "f6e468a31213c3fcde5304807c4df454",
-    "action": "no_change"
+    "action": "create"
   },
   {
     "path": "static/js/787.cda612ba.chunk.js",
@@ -117,18 +125,18 @@
     "action": "no_change"
   },
   {
-    "path": "static/js/main.bdfac6fb.js",
-    "md5": "9291987f411e88df37179823d16d31d9",
+    "path": "static/js/main.c0f57bee.js",
+    "md5": "ea74bd7212cc5a2ec348e47afc8f119c",
     "action": "create"
   },
   {
-    "path": "static/js/main.bdfac6fb.js.LICENSE.txt",
+    "path": "static/js/main.c0f57bee.js.LICENSE.txt",
     "md5": "899cc93f537869058af6fb110fc702a5",
     "action": "create"
   },
   {
-    "path": "static/js/main.bdfac6fb.js.map",
-    "md5": "1ebbb13c72d3a0572dba5fa0b2ffaf77",
+    "path": "static/js/main.c0f57bee.js.map",
+    "md5": "c81bc6d8ef451057fd47b2410c9b0249",
     "action": "create"
   },
   {
