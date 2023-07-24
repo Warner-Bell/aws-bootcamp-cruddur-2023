@@ -1,14 +1,22 @@
 [
   {
-    "path": "static/js/main.29abd996.js",
+    "path": "static/css/main.c08efab1.css",
     "action": "delete"
   },
   {
-    "path": "static/js/main.29abd996.js.LICENSE.txt",
+    "path": "static/css/main.c08efab1.css.map",
     "action": "delete"
   },
   {
-    "path": "static/js/main.29abd996.js.map",
+    "path": "static/js/main.bdfac6fb.js",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.bdfac6fb.js.LICENSE.txt",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.bdfac6fb.js.map",
     "action": "delete"
   },
   {
@@ -28,7 +36,7 @@
   },
   {
     "path": "asset-manifest.json",
-    "md5": "f5634bf641c803cf117b8a6180dc72ce",
+    "md5": "a2c18cc0961739a6402036a6c0389ffd",
     "action": "update"
   },
   {
@@ -53,7 +61,7 @@
   },
   {
     "path": "index.html",
-    "md5": "4cd52930f19748d7488ec190b7cc6a09",
+    "md5": "6bc07e99559169bf943c8dedcd4aa4bf",
     "action": "update"
   },
   {
@@ -97,14 +105,14 @@
     "action": "ignore"
   },
   {
-    "path": "static/css/main.c08efab1.css",
-    "md5": "9fbbad3c330c37d61563f3867dd2ca69",
-    "action": "no_change"
+    "path": "static/css/main.d24baa51.css",
+    "md5": "7ca426f7f472edf79d9b4d3ec4625082",
+    "action": "create"
   },
   {
-    "path": "static/css/main.c08efab1.css.map",
-    "md5": "f6e468a31213c3fcde5304807c4df454",
-    "action": "no_change"
+    "path": "static/css/main.d24baa51.css.map",
+    "md5": "36c43094655c8d8a5281518a82d6aac3",
+    "action": "create"
   },
   {
     "path": "static/js/787.cda612ba.chunk.js",
@@ -117,18 +125,18 @@
     "action": "no_change"
   },
   {
-    "path": "static/js/main.bdfac6fb.js",
-    "md5": "9291987f411e88df37179823d16d31d9",
+    "path": "static/js/main.82b5d597.js",
+    "md5": "d81362160b3ac65278f9ce37736ef5f4",
     "action": "create"
   },
   {
-    "path": "static/js/main.bdfac6fb.js.LICENSE.txt",
+    "path": "static/js/main.82b5d597.js.LICENSE.txt",
     "md5": "899cc93f537869058af6fb110fc702a5",
     "action": "create"
   },
   {
-    "path": "static/js/main.bdfac6fb.js.map",
-    "md5": "1ebbb13c72d3a0572dba5fa0b2ffaf77",
+    "path": "static/js/main.82b5d597.js.map",
+    "md5": "0b8620fa495a485908b92a825ab7b05d",
     "action": "create"
   },
   {
