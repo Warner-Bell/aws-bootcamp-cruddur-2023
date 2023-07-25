@@ -1,4 +1,4 @@
--- this file was manually created
+on bro-- this file was manually created
 INSERT INTO public.users (display_name, email, handle, cognito_user_id)
 VALUES
   ('Raymond Reddington', 'warner.bell21@gmail.com' , 'raymondreddington' ,'MOCK'),
@@ -6,14 +6,14 @@ VALUES
   ('Warner Bell', 'warner.bell@outlook.com' , 'warnerbell' ,'MOCK');
 
 INSERT INTO public.activities (user_uuid, message, expires_at)
-VALUES
+ALUES
   (
     (SELECT uuid from public.users WHERE users.handle = 'raymondreddington' LIMIT 1),
-    'This was imported as seed data! isn't it delighful?',
+    'This was imported as seed data! isnt it delighful?',
     current_timestamp + interval '10 day'
   ),
   (
     (SELECT uuid from public.users WHERE users.handle = 'warnerbell' LIMIT 1),
-    'I am not Dembe!',
+    'I am not Dembe',
     current_timestamp + interval '10 day'
   );
