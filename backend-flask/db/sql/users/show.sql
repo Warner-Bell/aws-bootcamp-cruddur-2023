@@ -6,7 +6,7 @@ SELECT
       users.handle,
       users.display_name,
       users.bio,
-      ( 
+      (
        SELECT 
         count(true) 
        FROM public.activities
