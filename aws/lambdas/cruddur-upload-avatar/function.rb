@@ -4,13 +4,13 @@ require 'jwt'
 
 def handler(event:, context:)
   puts event
-  # return cors headers for preflight check
+  # return cors headers for preflight check!
   if event['routeKey'] == "OPTIONS /{proxy+}"
     puts({step: 'preflight', message: 'preflight CORS check'}.to_json)
     { 
       headers: {
         "Access-Control-Allow-Headers": "*, Authorization",
-        "Access-Control-Allow-Origin": "gadgetoolslabs.com",
+        "Access-Control-Allow-Origin": "https://3000-warnerbell-awsbootcampc-88t32buek17.ws-us102.gitpod.io", "https://api.gadgetoolslabs.com"
         "Access-Control-Allow-Methods": "OPTIONS,GET,POST"
       },
       statusCode: 200
@@ -38,7 +38,7 @@ def handler(event:, context:)
     { 
       headers: {
         "Access-Control-Allow-Headers": "*, Authorization",
-        "Access-Control-Allow-Origin": "gadgetoolslabs.com",
+        "Access-Control-Allow-Origin": "https://3000-warnerbell-awsbootcampc-88t32buek17.ws-us102.gitpod.io", "https://api.gadgetoolslabs.com"
         "Access-Control-Allow-Methods": "OPTIONS,GET,POST"
       },
       statusCode: 200, 
