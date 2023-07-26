@@ -31,7 +31,7 @@ Parameters:
     AllowedValues:
       - true
       - false
-    Default: false
+    Default: true
   EngineVersion:
     Type: String
     #  DB Proxy only supports very specific versions of Postgres
