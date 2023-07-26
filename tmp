@@ -1,5 +1,17 @@
 [
   {
+    "path": "static/js/main.45fbe1e2.js",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.45fbe1e2.js.LICENSE.txt",
+    "action": "delete"
+  },
+  {
+    "path": "static/js/main.45fbe1e2.js.map",
+    "action": "delete"
+  },
+  {
     "path": "android-chrome-192x192.png",
     "md5": "59a9482e575b2b6feeebc4f72af2b428",
     "action": "ignore"
@@ -16,8 +28,8 @@
   },
   {
     "path": "asset-manifest.json",
-    "md5": "e6f8a9f90c9ca294e296fe2dc47c93d0",
-    "action": "no_change"
+    "md5": "ad409d2c9fc9f64810bcd8ee84c1d683",
+    "action": "update"
   },
   {
     "path": "browserconfig.xml",
@@ -41,8 +53,8 @@
   },
   {
     "path": "index.html",
-    "md5": "4680eab74362e4060e0877836cd03417",
-    "action": "no_change"
+    "md5": "36c0fc1661d289d660e58d370ead063d",
+    "action": "update"
   },
   {
     "path": "mstile-144x144.png",
@@ -105,19 +117,19 @@
     "action": "no_change"
   },
   {
-    "path": "static/js/main.45fbe1e2.js",
-    "md5": "52f31fe55fee77ad0c3b585c71199e4a",
-    "action": "no_change"
+    "path": "static/js/main.fb3171c3.js",
+    "md5": "95230d4d4ea13a7ac9d1016de1c110d5",
+    "action": "create"
   },
   {
-    "path": "static/js/main.45fbe1e2.js.LICENSE.txt",
+    "path": "static/js/main.fb3171c3.js.LICENSE.txt",
     "md5": "899cc93f537869058af6fb110fc702a5",
-    "action": "no_change"
+    "action": "create"
   },
   {
-    "path": "static/js/main.45fbe1e2.js.map",
-    "md5": "76676c56bd1524090fcf0fd693604fec",
-    "action": "no_change"
+    "path": "static/js/main.fb3171c3.js.map",
+    "md5": "aefadac7f79e9f19f35a2ccb16bd69d1",
+    "action": "create"
   },
   {
     "path": "static/media/bomb.585e455838778938e175c4311b6a9284.svg",
