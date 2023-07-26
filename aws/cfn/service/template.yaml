@@ -125,7 +125,7 @@ Resources:
       TaskDefinition: !Ref TaskDefinition
 
   TaskDefinition:
-    # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html
+    # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html/
     Type: 'AWS::ECS::TaskDefinition'
     Properties:
       Family: !Ref TaskFamily
@@ -153,7 +153,7 @@ Resources:
               - 'CMD-SHELL'
               - 'python /backend-flask/bin/flask/health-check'
             Interval: 30
-            Timeout: 7
+            Timeout: 6
             Retries: 3
             StartPeriod: 60
           PortMappings:

@@ -92,7 +92,7 @@ Resources:
 # First character must be a letter.
 # Can't be a reserved word for the chosen database engine.
       MasterUsername:  !Ref MasterUsername
-      # Constraints: Must contain from 8 to 128 characters.
+      # Constraints: Must contain from 8. to 128 characters.
       MasterUserPassword: !Ref MasterUserPassword
       PubliclyAccessible: true
       VPCSecurityGroups:
