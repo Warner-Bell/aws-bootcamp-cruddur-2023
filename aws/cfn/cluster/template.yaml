@@ -54,7 +54,7 @@ Parameters:
     Default: 4567
   BackendHealthCheckIntervalSeconds:
     Type: String
-    Default: 15
+    Default: 16
   BackendHealthCheckPath:
     Type: String
     Default: "/api/health-check"
