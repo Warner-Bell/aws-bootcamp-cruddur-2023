@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: |
   - CloudFront Distribution
   - S3 Bucket for www.
-  - S3 Bucket for naked domain
+  - S3 Bucket for naked domain.
   - Bucket Policy
 
 Parameters:
@@ -77,7 +77,7 @@ Resources:
         Aliases:
           - gadgetoolslabs.com
           - www.gadgetoolslabs.com
-        Comment: Frontend React Js for Cruddur
+        Comment: Frontend React Js for Cruddur.
         Enabled: true
         HttpVersion: http2and3 
         DefaultRootObject: index.html
