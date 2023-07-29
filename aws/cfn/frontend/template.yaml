@@ -77,7 +77,7 @@ Resources:
         Aliases:
           - gadgetoolslabs.com
           - www.gadgetoolslabs.com
-        Comment: Frontend React Js for Cruddur.
+        Comment: Frontend React Js for Cruddur
         Enabled: true
         HttpVersion: http2and3 
         DefaultRootObject: index.html
