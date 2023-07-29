@@ -9,7 +9,7 @@
         "AllowedOrigins": [
             "https://*.gitpod.io",
             "https://api.gadgetoolslabs.com",
-            "https://api.gadgetoolslabs.com"
+            "https://gadgetoolslabs.com"
         ],
         "ExposeHeaders": [
             "x-amz-server-side-encryption",
