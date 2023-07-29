@@ -6,4 +6,4 @@ stack_name = 'CrdSrvBackendFlask'
 [parameters]
 EnvFrontendUrl = 'https://gadgetoolslabs.com'
 EnvBackendUrl = 'https://api.gadgetoolslabs.com'
-DDBMessageTable = 'CrdDdb-DynamoDBTable-XSA06D6A86Z2'
+DDBMessageTable = 'CrdDdb-DynamoDBTable-677MEDQMTRP8'
