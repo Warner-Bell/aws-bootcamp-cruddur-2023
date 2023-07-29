@@ -6,8 +6,8 @@ import JoinSection from '../components/JoinSection'
 
 export default function DesktopSidebar(props) {
   const trendings = [
-    {"hashtag": "100DaysOfCloud", "count": 2053 },
-    {"hashtag": "CloudOptimized", "count": 8253 },
+    {"hashtag": "100DaysOfCloud", "count": 2553 },
+    {"hashtag": "CloudOptimized", "count": 6253 },
     {"hashtag": "AWS", "count": 9053 },
     {"hashtag": "StargateReboot", "count": 7753 }
   ]
