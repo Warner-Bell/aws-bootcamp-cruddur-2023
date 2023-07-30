@@ -5,8 +5,10 @@
 - Application: Cruddur
 - Cohort: 2023-A1
 
-- Bootcamp Completion Final Journal Submission - https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/blob/main/journal/weekX.md
+## - My Bootcamp Completion Final Journal Submission -
+https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/blob/main/journal/weekX.md
 
+## The Code
 This is the starting codebase that will be used in the FREE AWS Cloud Project Bootcamp 2023
 
 ![Cruddur Graphic](_docs/assets/cruddur-banner.jpg)
