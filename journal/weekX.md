@@ -21,6 +21,11 @@
 
 # Technical Tasks
 
+
+## Required Homework
+
+After a complete teardown and redeploy of all resources related to my app back up to CloudFormation. The real work began!
+
 ## Sync tool for static website hosting
 
 We began week x with the intent to get our application working again after refactoring with cloudformation.
@@ -29,11 +34,6 @@ We created a file called static-build consisting of paths and variables we neede
 After running the file, we get a build directory that we zip and download, extract and upload the contents into our domain bucket.
 We then needed a way to synchronize changes to that data from gitpod to aws, Andrew had previously created a tool called (aws website s3 sync)...that we would use to handle that function.
 We looked at GitHub actions but found it not worth the time so moved on.
-
-
-## Required Homework
-
-Before we dive into the main tasks, let's go through the required homework to ensure everyone is on the same page.
 
 ## Reconnect DB and Post Confirmation
 Next, we needed to reconnect the database and work on post confirmation lambda
