@@ -28,10 +28,12 @@ After a complete teardown and redeploy of all resources related to my app back u
 
 ## Sync tool for static website hosting
 
-We began week x with the intent to get our application working again after refactoring with cloudformation.
+We began week X with the intent to get our application working again after refactoring with cloudformation.
 The idea was to compile the frontend, and drag it all over to our website bucket.
 We created a file called static-build consisting of paths and variables we needed for npm run build.
 After running the file, we get a build directory that we zip and download, extract and upload the contents into our domain bucket.
+![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/1f8e5d2a-1c06-43a9-9d01-fb0010037d2c)
+
 We then needed a way to synchronize changes to that data from gitpod to aws, Andrew had previously created a tool called (aws website s3 sync)...that we would use to handle that function.
 We looked at GitHub actions but found it not worth the time so moved on.
 
@@ -40,9 +42,15 @@ Next, we needed to reconnect the database and work on post confirmation lambda
 The debug-mode was showing up when we went to activities/home that was not desired so we rebuilt, registered and pushed a new backend image, we found the service role names had a mismatch and corrected it.
 We decided to try to delete and redeploy the service stack and we found issues with dependencies cross-reference stacks, decided to remove those connections.
 Originally, the tasks kept failing, we had to go back to dev, and do debugging. We setup prod access locally, fix prod version of flask, added SG rules, and fixed update sg rule and updated envars.
-We then logged into the database, ran schema load and attempted to load schema and migrations with an override (CONNECTION_URL=$PROD_CONNECTION_URL ./bin/db/migrate). 46:03
+![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/c8afca5d-43f3-4e00-9734-c9b41491dcb6)
+
+We then logged into the database, ran schema load and attempted to load schema and migrations with an override (CONNECTION_URL=$PROD_CONNECTION_URL ./bin/db/migrate).
 The next step was to delete all the cognito users and re-sign up, but first we added custom error reporting to the frontend cfn template and re-deployed.
-Then we found out the vpc and sec group needed updating on the post-conf-lambda, so we set that and added the COGNITOPOST rule to the SG. We then create the user. 1:04:56
+Then we found out the vpc and sec group needed updating on the post-conf-lambda, so we set that and added the COGNITOPOST rule to the RDSSG. We then create the user.
+![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/fc0c9baa-01d6-4ea3-95ad-9cfe6875504a)
+![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/b55b2ac8-c379-4d23-b1b3-eb7fe3e99465)
+
+
 The next step was attempt a CRUD, we did and got back a 500 cors error, so we went to look at rollbar logs and cleared them for a fresh set. We retried the crud and Andrew found no rollbar logs so we went to ECS-Backendflask and also found no logs. So we went to cloudwatch and found (AttributeError: 'NotNullViolation' object has no attribute 'pgerror').
 Wasn’t sure what the error was, decided to test locally, so we seeded the data by running ./bin/db/setup. Created a crud and It worked with no issues.
 ![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/6dc1637f-5d50-4a47-850a-d337b28983c9)
