@@ -23,6 +23,7 @@
 
 
 ## Required Homework
+Submit a working social media messaging app.
 
 After a complete teardown and redeploy of all resources related to my app back up to CloudFormation. The real work began!
 
