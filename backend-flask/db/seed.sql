@@ -2,23 +2,18 @@
 INSERT INTO public.users (display_name, email, handle, cognito_user_id)
 VALUES
   ('Alt Bell', 'warner.bell21@gmail.com' , 'altbell' ,'MOCK'),
-  ('Elizabeth Keen', 'warner@cloudoptimizedlabs.com' , 'elizabethkeen' ,'MOCK'),
-  ('Warner Bell', 'warner.bell@outlook.com' , 'warnerbell' ,'MOCK');
+  ('Warner Bell', 'warner.bell@outlook.com' , 'warner' ,'MOCK');
 
 INSERT INTO public.activities (user_uuid, message, expires_at)
 VALUES
   (
-    (SELECT uuid from public.users WHERE users.handle = 'raymondreddington' LIMIT 1),
+    (SELECT uuid from public.users WHERE users.handle = 'altbell' LIMIT 1),
     'This was imported as seed data! isnt it delighful?',
     current_timestamp + interval '10 day'
   ),
   (
-    (SELECT uuid from public.users WHERE users.handle = 'warnerbell' LIMIT 1),
+    (SELECT uuid from public.users WHERE users.handle = 'warner' LIMIT 1),
     'I am not Dembe',
     current_timestamp + interval '10 day'
-  ),
-  (
-    (SELECT uuid from public.users WHERE users.handle = 'elizabethkeen' LIMIT 1),
-    'I just want answers',
-    current_timestamp + interval '10 day'
   );
+ 
