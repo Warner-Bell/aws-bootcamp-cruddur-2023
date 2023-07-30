@@ -1,6 +1,6 @@
 # Week x — Cleanup
 
-# Week-X 😱 😨 💪
+# Week-X 😱 😨 💪 🚀
 
 ## Table of Contents
 
@@ -167,9 +167,10 @@ Upon closer look, turns out the 403 was just superficial on a .jpg, so had to go
 
 ## Conclusion
 
-### This has been One of the most grueling weeks of I can remember! One week ago today I submitted what I figured was a decent enough version of this app, to get by with possibly gold squad (I knew red was a stretch) but I wanted to at-least finish, and it was hard!, the last month has been so busy at work and even after work, I had been struggling for weeks to keep up with the boot-camp, I would run into an issue obsess on it for days, hit a wall, have to put it down for a while, I can admit I entertained the thought of quitting briefly, but I never saw myself giving up, I was going to finish what I started, so worked on it till I thought I was outta of time and sent it in for judgment..Lol, the think was so broke; Andrew messaged me and said the validator would not even run on it...lmao! You Bull$h*tn lhh  He gave me some great tips and told me I still had time to at-least get it respectable for gold, to be honest I was a little embarrassed, I said na I aint goin out like that, and vowed to fix it..So, every free second of my life for the past 7 days has been Mission Impossible: Flex under Pressure.
-I can not tell you how good it feels to be looking at the Picture below I pulled off, right down on the wire!
+### This has been One of the most grueling weeks of I can remember! One week ago today I submitted what I figured was a decent enough version of this app, to get by with possibly gold squad (I knew red was a stretch) but I wanted to at-least finish, and it was hard!, the last month has been so busy at work and even after work, I had been struggling for weeks to keep up with the boot-camp, I would run into an issue obsess on it for days, hit a wall, have to put it down for a while, I can admit I entertained the thought of quitting briefly, but I never saw myself giving up, I was going to finish what I started, so worked on it till I thought I was outta of time and sent it in for judgment😨..Lol, the thing was so broke; Andrew messaged me and said the validator would not even run on it😱 Noooooo...lmao! You got to be Bull$h*tn lhh. He gave me some great tips and told me I still had time to at-least get it respectable for gold, to be honest I was a little embarrassed, I said to myself na I aint goin out like that, and vowed to fix it..So, every free second of my life for the past 7 days has been Mission Impossible: 💪Flex under Pressure.
+
+## I can not tell you how good it feels to be looking at the Picture below, I pulled off, right down on the wire!
 ![image](https://github.com/Warner-Bell/aws-bootcamp-cruddur-2023/assets/100949697/eeadf53e-79c0-4854-8b1f-3a3b8d297cb8)
 
 
-Let's dive into these exciting tasks with a mix of emotions: 😱 surprised, 😨 scared, and 💪 determined! Happy coding! 🚀
+
