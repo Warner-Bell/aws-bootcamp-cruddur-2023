@@ -3,7 +3,7 @@
 # Week-X 😱 😨 💪 🚀
 
 ## Table of Contents
-
+### Technical Tasks:
 - **[Sync tool for static website hosting](#sync-tool-for-static-website-hosting)**
 - **[Required Homework](#required-homework)**
 - **[Reconnect DB and Post Confirmation](#reconnect-db-and-post-confirmation)**
