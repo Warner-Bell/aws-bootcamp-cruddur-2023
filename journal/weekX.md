@@ -1,4 +1,4 @@
-# Week x — Cleanup
+# Week X & Cleanup
 
 # Week-X 😱 😨 💪 🚀
 
